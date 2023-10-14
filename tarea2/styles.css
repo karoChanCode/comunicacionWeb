@@ -1,9 +1,258 @@
-.team-member img {
-    max-width: 100%;
-    border-radius: 50%;
+/* Fuentes personalizadas */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Estilos globales */
+html {
+    font-size: 16px;
+    overflow-x: hidden;
 }
 
-/* Estilos para iconografías */
-.icon {
-    font-size: 36px;
+h1, h2 {
+    font-family: 'Lora', serif;
+    font-size: 3rem !important;
+    color: #1C3D6F;  
+}
+
+p, a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem !important;
+    color: #333;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem !important;
+    background-color: #1C3D6F;  
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Estilos de navegación y barra de navegación */
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 10000;
+    background-color: #1C3D6F;  
+    transition: all 0.3s ease-out;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #333;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navigation-wrap.scroll-on {
+    background-color: #fff;
+}
+
+.navigation-wrap.scroll-on .nav-link {
+    color: #1C3D6F;  
+}
+
+/* Estilos de botón "Ordenar" */
+.btnOrder {
+    padding: 20px;
+    background-color: #1C3D6F;  
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Menú hamburguesa */
+.navbar-toggler {
+    background-color: #1C3D6F;  
+    border: 2px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #333;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Estilos de secciones y otros elementos */
+/* Añade aquí los estilos específicos para cada sección y elemento según tus necesidades. */
+
+/* Sección 1 */
+.sectionOne {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 0 358px;
+    background-attachment: fixed;
+}
+
+.sectionOne h1 {
+    color: #fff;
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+
+.sectionOne p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* Sección 2 */
+.sectionTwo h2 {
+    color: #1C3D6F; 
+    font-size: 45px;
+}
+
+.sectionTwo i {
+    border-radius: 50% !important;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #1C3D6F; 
+    color: #fff;
+    line-height: 6.25rem;
+    font-size: 2.1875rem;
+    margin-bottom: 1.25rem;
+}
+
+/* Sección 3 */
+.sectionThree h2 {
+    padding-bottom: 20px;
+    color: #1C3D6F; 
+    font-size: 45px;
+}
+
+.sectionThree {
+    background-color: #f7f7f7;
+}
+
+.card-title {
+    color: #1C3D6F; 
+    font-weight: bold;
+}
+
+.sectionThree .list-group-item {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Sección 4 */
+.sectionFour h2 {
+    padding-bottom: 20px;
+    color: #1C3D6F;  
+    font-size: 45px;
+}
+
+.sectionFour .list-group-item i {
+    font-size: 40px;
+    color: #1C3D6F;  
+}
+
+/* Sección Promoción */
+.sectionPromo h2 {
+    padding-bottom: 20px;
+    color: #1C3D6F;  
+    padding-top: 180px;
+    font-size: 45px;
+}
+
+/* Sección Contacto */
+.contact-form .form-control {
+    height: 52px;
+    border: 1px solid transparent;
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 10%);
+    border-radius: 5px;
+    padding: 0 24px;
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: #1C3D6F; 
+}
+
+/* ScrollTop */
+.botonScrollTop {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background-color: #1C3D6F;  
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1C3D6F;  
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+/* Media queries para tamaños de pantalla específicos */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .navbar-toggler {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    p {
+        margin-left: 5px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .sectionOne {
+        background-size: contain; /* Hacer que la imagen se ajuste al contenedor */
+        padding: 150px 0 158px; /* Ajustar el espaciado para que sea más compacto */
+    }
+
+    .sectionOne h1 {
+        font-size: 2rem !important; /* Reducir el tamaño del título en pantallas pequeñas */
+    }
+
+    .sectionOne p {
+        font-size: 1rem !important; /* Reducir el tamaño del párrafo en pantallas pequeñas */
+    }
 }
