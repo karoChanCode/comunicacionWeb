@@ -256,3 +256,12 @@ footer p {
         font-size: 1rem !important; /* Reducir el tamaño del párrafo en pantallas pequeñas */
     }
 }
+
+
+.card.card-zoom {
+    transition: transform 0.2s;
+}
+
+.card.card-zoom:hover {
+    transform: scale(1.05);
+}
