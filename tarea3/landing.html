@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salchicha's Party</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+    <!-- Encabezado con clip-path -->
+    <header style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 style="color: #cbcbda;">DOG'S PARTY</h1>
+                </div>
+                <div class="col-md-6">
+                    <div class="call-us">
+                        <i class="fas fa-phone"></i>
+                        <span style="color: #cbcbda;">CALL US 7080-7595</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de imagen de fondo con efecto parallax -->
+<section id="parallax-section" style="background-image: url('img/banner.jpg');">
+    <div class="container">
+        
+    </div>
+</section>
+
+
+    <!-- Sección de imagen de fondo -->
+    <section id="background-section" style="background-image: url('background-image.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-content" style=" text-align: center; padding: 50px; color: #fff;">
+                        <h2 style="color:#2f2c79">Make it memorable!</h2>
+                        <Unleash  style="color:#2f2c79">"Unleash the fun: Paws and party!"</p>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de suscripción -->
+    <section id="subscription" style="background-color: #2f2c79; color: #fff; text-align: center; padding: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <h3>Subscribe to our newsletter</h3>
+                    <form>  
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="background-color: #2823bc;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Actividades Section (Acordeón) -->
+<section id="activities" style="background-color: whitesmoke; color: #2f2c79;">
+    <div class="container">
+        <h2 style="color: #2f2c79">Activities</h2>
+        <div class="accordion" id="activityAccordion">
+            <!-- Primer elemento del acordeón -->
+            <div class="card">
+                <div class="card-header" id="activity1Heading">
+                    <h3 class="mb-0" >
+                        <button class="btn btn-link" style="color: #2f2c79" type="button" data-toggle="collapse" data-target="#activity1Collapse" aria-expanded="true" aria-controls="activity1Collapse">
+                            Puppy Playdate in the Park
+                        </button>
+                    </h3>
+                </div>
+                <div id="activity1Collapse" class="collapse show" aria-labelledby="activity1Heading" data-parent="#activityAccordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="activity-image">
+                                    <!-- Imagen de la actividad 1 -->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Let your furry friends run wild in the great outdoors. This activity is all about play and socializing. We'll head to the local dog-friendly park, where your dogs can mingle and make new friends. They'll enjoy hours of fetch, chase, and sniffing adventures in a safe and enclosed environment. It's the perfect opportunity for your dogs to burn off energy and bond with other canine companions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo elemento del acordeón -->
+            <div class="card">
+                <div class="card-header" id="activity2Heading">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" style="color: #2f2c79" type="button" data-toggle="collapse" data-target="#activity2Collapse" aria-expanded="false" aria-controls="activity2Collapse">
+                            Doggie Costume Contest
+                        </button>
+                    </h3>
+                </div>
+                <div id="activity2Collapse" class="collapse" aria-labelledby="activity2Heading" data-parent="#activityAccordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class = "col-md-6">
+                                <div class="activity-image">
+                                    <!-- Imagen de la actividad 2 -->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Get ready for some pawsitively cute and hilarious moments as your dogs strut their stuff in their favorite costumes! Whether it's a superhero, a movie character, or a classic pumpkin costume, our doggie costume contest is all about creativity and fun. Prizes will be awarded for the most original, funniest, and cutest costumes. So, dress up your pup, and let's have a howling good time!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercer elemento del acordeón -->
+            <div class="card">
+                <div class="card-header" id="activity3Heading">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" style="color: #2f2c79" type="button" data-toggle="collapse" data-target="#activity3Collapse" aria-expanded="false" aria-controls="activity3Collapse">
+                            Pupcake Decorating Party
+                        </button>
+                    </h3>
+                </div>
+                <div id="activity3Collapse" class="collapse" aria-labelledby="activity3Heading" data-parent="#activityAccordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class = "col-md-6">
+                                <div class="activity-image">
+                                    <!-- Imagen de la actividad 3 -->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Treat your dogs to a delicious and visually appealing activity. We'll provide freshly baked pupcakes and a variety of dog-friendly toppings like peanut butter frosting, bacon bits, and shredded cheese. Your dogs will have a blast decorating their very own pupcakes. Not only is it entertaining, but it's also a tasty way for them to enjoy a special treat. Plus, they get to take their decorated pupcakes home as a yummy souvenir!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección de video -->
+    <section id="video" style="background-color: #2f2c79;">
+        <div class="container">
+            <div class="embed-responsive embed-responsive-16by9">
+                <!-- Reemplaza la URL con tu código de inserción de video de YouTube -->
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oVZ3PFHD8yg"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación de Google Maps a pantalla completa -->
+    <section id="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.025062913769!2d-84.04318797422198!3d9.931870574201778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e38c625dda99%3A0xdcccf0182d6fd5a1!2sCondominio%20Solaris%2C%20Lourdes%2C%20San%20Jos%C3%A9%2C%20San%20Pedro%2C%2011801!5e0!3m2!1ses!2scr!4v1699079918615!5m2!1ses!2scr" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Icono de chat de WhatsApp más grande -->
+    <a class="whatsapp-chat" href="https://wa.me/+50670807595" target="_blank">
+        <i class="fab fa-whatsapp fa-3x"></i>
+    </a>
+
+    <!-- Botón de scroll top -->
+    <button id="scroll-top-btn" class="btn btn-primary">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+
+    <!-- Pie de página con clip-path -->
+    <footer style="clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Derechos reservados</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Karolina Chan</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- JavaScript para mostrar/ocultar el botón "scroll top" -->
+<script>
+    window.addEventListener('scroll', function() {
+        var scrollTopButton = document.getElementById('scroll-top-btn');
+        if (window.pageYOffset > 200) { // Cambia 200 al número de píxeles que prefieras
+            scrollTopButton.style.display = 'block'; // Muestra el botón
+        } else {
+            scrollTopButton.style.display = 'none'; // Oculta el botón
+        }
+    });
+
+    // Código para el botón de scroll top
+    document.getElementById("scroll-top-btn").addEventListener("click", function () {
+        document.documentElement.scrollTop = 0;
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #000;
+}
+
+h1, h2, h3 {
+    color: #cbcbda;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Header estilos */
+header {
+    background-color: #2f2c79;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.call-us {
+    text-align: right;
+}
+
+/* Banner estilos */
+
+.banner-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+/* Botón "READ MORE" */
+.btn-primary {
+    background-color: #2823bc;
+    color: #fff;
+}
+
+/* Actividades estilos */
+#activities {
+    background-color:whitesmoke;
+    padding: 40px 0;
+}
+
+.activity {
+    /* Estilos de la imagen de la actividad */
+}
+
+/* Video estilos */
+#video {
+    background-color: #2823bc;
+    padding: 40px 0;
+}
+
+.embed-responsive {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Ubicación de Google Maps estilos */
+#location {
+    background-color: whitesmoke;
+    height: 80vh; /* Pantalla completa */
+}
+
+/* Estilo para el icono de WhatsApp */
+.whatsapp-chat {
+    position: fixed;
+    bottom: 80px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
+    right: 20px;
+    background: #25d366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+
+/* Estilo para el encabezado con clip-path */
+header {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/* Estilo para el pie de página con un clip-path alternativo */
+footer {
+    background: #2f2c79;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 50% 100%, 0% 70%);
+    color: #fff;
+    padding: 20px 0;
+}
+
+#scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2823bc;
+    display: none; /* Oculta el botón al inicio */
+}
+
+
+#parallax-section {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
