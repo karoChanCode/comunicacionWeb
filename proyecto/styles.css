@@ -65,7 +65,7 @@ header h1 {
     width: 100%;
 }
 
-/* Agrega estos estilos para la galería de productos y testimonios */
+ 
 .product-gallery {
     display: flex;
     justify-content: space-between;
@@ -113,7 +113,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Agrega estos estilos para la fila de testimonios */
+ 
 .testimonial-row {
     flex-wrap: nowrap;
 }
@@ -137,42 +137,39 @@ header h1 {
     }
 }
 
-/* Añade estas reglas para el menú y botones rosa pastel */
+ 
 header {
-    background-color: #ffb6c1; /* Fondo rosa pastel para el encabezado */
+    background-color: #ffb6c1;  
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff !important; /* Texto blanco para los enlaces del menú */
+    color: #ffffff !important; 
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-color: #ffffff; /* Color blanco para el ícono del botón de menú en dispositivos móviles */
+    background-color: #ffffff;  
 }
 
 .navbar-dark .navbar-toggler {
-    border-color: #ffffff; /* Color blanco para el borde del botón de menú en dispositivos móviles */
-}
+    border-color: #ffffff;  
 
 .nav-link:hover {
-    color: #ffffff !important; /* Texto blanco al pasar el ratón sobre los enlaces del menú */
-    background-color: #ffb6c1; /* Fondo rosa pastel al pasar el ratón sobre los enlaces del menú */
+    color: #ffffff !important; 
+    background-color: #ffb6c1;  
 }
 
 .btn-primary {
-    background-color: #ffb6c1; /* Fondo rosa pastel para los botones primarios */
-    border-color: #ffb6c1; /* Borde rosa pastel para los botones primarios */
-    color: #ffffff; /* Texto blanco para los botones primarios */
-}
+    background-color: #ffb6c1;  
+    border-color: #ffb6c1;  
+    color: #ffffff;  
 
 .btn-primary:hover {
-    background-color: #ff8c9b; /* Cambia el fondo al pasar el ratón sobre los botones primarios */
-    border-color: #ff8c9b; /* Cambia el borde al pasar el ratón sobre los botones primarios */
+    background-color: #ff8c9b;  
+    border-color: #ff8c9b;  
 }
-
-/* Añade estos estilos para la sección del blog */
+ 
 #blog {
-    background-color: #f9f9f9; /* Fondo gris claro para la sección del blog */
+    background-color: #f9f9f9;  
 }
 
 .blog-posts {
@@ -207,43 +204,42 @@ header {
     margin-bottom: 10px;
 }
 
-/* Estilos para las imágenes del blog */
+ 
 .blog-image {
     width: 100%;
-    height: 200px; /* Puedes ajustar la altura según tus preferencias */
-    object-fit: cover; /* Cubre el contenedor manteniendo la proporción de aspecto */
-    object-position: center; /* Centra la imagen verticalmente */
+    height: 200px;  
+    object-fit: cover;  
+    object-position: center;  
 }
 
 
-/* Agrega estos estilos para las imágenes del carrusel */
+ 
 .carousel-image {
-    height: 300px; /* Establece la altura deseada */
-    object-fit: cover; /* Cubre el contenedor manteniendo la proporción de aspecto */
-    object-position: center; /* Centra la imagen verticalmente */
+    height: 300px;  
+    object-fit: cover;  
+    object-position: center; 
 }
 
 
-/* Agrega estos estilos para cambiar el color de los botones a rosa pastel */
+ 
 .btn-primary {
-    background-color: #ffc0cb; /* Cambia este valor al tono de rosa pastel que desees */
+    background-color: #ffc0cb;  
     border-color: #ffc0cb;
     color: #fff;
 }
 
 .btn-primary:hover {
-    background-color: #ff91a4; /* Cambia este valor al tono de rosa pastel que desees para el hover */
+    background-color: #ff91a4;  
     border-color: #ff91a4;
     color: #fff;
 }
 
 .product-container {
-    max-width: 1200px; /* Ancho máximo del contenedor de productos */
-    margin: auto; /* Centra el contenido horizontalmente */
-    padding: 20px; /* Añade relleno para dar espacio alrededor del contenido */
+    max-width: 1200px;  
+    padding: 20px;  
 }
 
 .product {
-    width: 30%; /* Ancho de cada producto, ajusta según sea necesario */
-    margin: 0 15px 20px 0; /* Márgenes entre productos, ajusta según sea necesario */
+    width: 30%;  
+    margin: 0 15px 20px 0; / 
 }
