@@ -1,0 +1,34 @@
+/* Modifica la galería de productos para mostrarlos en una línea horizontal */
+.product-gallery {
+    display: flex;
+    overflow-x: auto;
+}
+
+.product {
+    flex: 0 0 auto;
+    width: 300px; /* Ancho fijo para cada producto */
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+/* Agrega estos estilos para evitar el espacio al final de la fila */
+.product:last-child {
+    margin-right: 0;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product:hover img {
+    transform: scale(1.2);
+}
